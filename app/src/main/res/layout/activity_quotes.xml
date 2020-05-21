@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuotesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/quotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Motivational Quotes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="#000" />
+
+        <ImageView
+            android:id="@+id/quote1"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quotes"/>
+
+        <ImageView
+            android:id="@+id/quote2"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote1"/>
+
+        <ImageView
+            android:id="@+id/quote3"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote2"/>
+
+        <ImageView
+            android:id="@+id/quote4"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote3"/>
+
+        <ImageView
+            android:id="@+id/quote5"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote4"/>
+
+        <ImageView
+            android:id="@+id/quote6"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote5"/>
+
+        <ImageView
+            android:id="@+id/quote7"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote6"/>
+
+        <ImageView
+            android:id="@+id/quote8"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/quote8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/quote7"/>
+
+    </RelativeLayout>
+
+</ScrollView>
